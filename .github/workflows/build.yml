@@ -84,7 +84,7 @@ jobs:
         run: tar -cvf avarice.tar.gz -C avarice_installed .
       - uses: actions/upload-artifact@v4
         with:
-          name: AVaRICE Linux 64-bit
+          name: AVaRICE Linux Intel 64-bit
           path: avarice.tar.gz
   build-linux-arm64:
     runs-on: ubuntu-24.04-arm
@@ -109,7 +109,7 @@ jobs:
         run: tar -cvf avarice.tar.gz -C avarice_installed .
       - uses: actions/upload-artifact@v4
         with:
-          name: AVaRICE Linux 64-bit
+          name: AVaRICE Linux ARM 64-bit
           path: avarice.tar.gz
   build-darwin-arm64:
     runs-on: macos-latest
