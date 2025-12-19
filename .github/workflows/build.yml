@@ -48,6 +48,7 @@ jobs:
           file avarice_installed/usr/bin/*
           ldd avarice_installed/usr/bin/avarice
           cp /mingw64/bin/libusb-1.0.dll avarice_installed/usr/bin/.
+          cp /mingw64/bin/libusb-1.0.dll avarice_installed/usr/bin/msys-usb-1.0.dll
           cp /usr/bin/msys-2.0.dll avarice_installed/usr/bin/.
           cp /usr/bin/msys-stdc++-6.dll avarice_installed/usr/bin/.
           cp /usr/bin/msys-gcc_s-seh-1.dll avarice_installed/usr/bin/.
